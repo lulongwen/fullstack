@@ -1,6 +1,14 @@
 # vue-router
 
-1. SPA都需要路由
+1. 路由原理，SPA都需要路由
+   1. hash，默认路由
+      1.  onhashchange
+   2. H5 history，需要服务端支持
+      1. window.onpopState
+      2. history.pushState
+2. addRoutes
+3. to & push
+4. 路由懒加载，配合动态组件
 
 
 
@@ -48,6 +56,21 @@ location.pathname // index.html
 location.search // ?user=lucy&age=30
 location.hash // #/city/location
 ```
+
+
+
+```jsx
+export default new VueRouter ({
+  routes: [
+    {
+      path: '/user',
+      component: () => import(/* webpackChunkName: 'user' */'components/User/index.vue')
+    }
+  ]
+})
+```
+
+
 
 
 

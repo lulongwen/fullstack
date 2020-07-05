@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>12313</title>
+    <script type="text/javascript">
+      document.onmouseup = showSelection;
+      function showSelection() {
+        if (window.getSelection) {
+          alert(window.getSelection());
+        } else if (document.selection) {
+          alert(document.selection.createRange().text);
+        }
+      }
+    </script>
+  </head>
+  <body>
+    <p>
+      这里是测试文本的内容这里是测试文本的内容这里是测试文本的内容这里是测试文本的内容
+
+      鼠标框选文件效果 http://www.jq22.com/demo/jQuery-xz20161223/
+    </p>
+  </body>
+</html>

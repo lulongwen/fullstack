@@ -1,16 +1,28 @@
 # 全栈工程师
 
+> Author: 卢珑文
+>
+> Email: lulongwen@live.com
+>
+> Wechat: 18915972355
+>
+> Website: www.lulongwen.com
+>
+> Github: www.github.com/lulongwen
+
+
+
 1. 语言
 2. 框架
 3. 环境
 4. 整合技术做项目
-6. 前端的未来
+5. 前端的未来
    1. 不要把自己局限于前端，做一个解决问题的人，能解决问题就有未来
    2. **领域驱动设计：**强化领域建模和系统设计能力，力争懂业务、成为领域专家
    3. **软件架构设计**：为系统、框架、类库注入灵魂，让代码有生命力
    4. 图形技术，在应用、引擎两层都有广阔的场景
    5. AI
-7. 关注的技术
+6. 关注的技术
    1. ESbuild 极快的 JavaScript bundler，用 Go 语言编写
    2. Deno 安全的 JavaScript & TypeScript 运行时
    3. Figma https://www.figma.com/
@@ -39,6 +51,23 @@
 
 
 
+### 新概念
+
+1. SPA & MPA
+   1. single page application 单页面应用
+   2. multi page application 多页面应用
+   3. 异步结构通信
+   4. 纯前端逻辑渲染
+   5. 解耦的前后端协作开发
+2. PWA
+   1. 渐进式网络应用，离线访问能力
+   2. 可控的静态资源，优化加载速度
+3. Serverless
+
+
+
+
+
 ## 用户思维做产品
 
 1. 需求调研
@@ -59,8 +88,9 @@
 1. Es6
    1. Vue
    2. React
+   3. jsx，createElement
 2. Html5
-3. Css3
+3. Css3 flex弹性布局
 4. Webpack
 
 
@@ -91,6 +121,8 @@
 
 
 
+
+
 ### 微前端的核心
 
 1. 技术栈无关
@@ -101,6 +133,35 @@
    1. 渐进式重构
 4. 独立运行时
    1. 每个微应用之间状态隔离，运行时状态不共享
+
+
+
+
+
+## 开发工具
+
+1. nodejs
+   1. v8引擎，异步事件驱动
+   2. 广泛应用于前端工具化，代表：webpack， gulp
+2. npm包
+   1. js模块化规范
+3. webpack
+   1. 模块打包器，构建工具
+   2. vue-cli
+   3. create-react-app
+4. eslint
+   1. 代码风格校验， --fix自动修复风格规范
+5. prettier
+   1. 增强代码美化，多语言支持
+6. iconfont
+   1. icomoon.io
+   2. 自定义文字图形
+7. snippets代码段
+   1. emmet
+
+
+
+
 
 
 
@@ -135,12 +196,13 @@
    2. hooks 方案更像是拆了东墙补西墙，因为 Class 臃肿，function 更简单
       1. 如果你把一个函数里面写上几百行的代码，各种 hooks 用到飞起的时候，你才会回过头来反思如何组织代码。
       2. 如果 Class 能以一种更好/更易于理解的方式去抽象那为什么不用呢？
-   3. react没解决状态管理的问题
+   3. react没解决状态管理的问题，于是就有了 flux架构的 redux
 2. **框架要解决的问题是系统层面**的不是某个抽象层面的
 3. 很多 JavaScript 类库都没有高效地解决一个问题 **架构**
    1. React/Vue/Express/Koa 这些都是相对独立的点，没有一个东西能把他们连接起来形成一个面
    2. 形成一种框架级别的体系。这就是架构的问题
-4. 
+   3. 职责分离，单一职责原则
+   4. 模块解耦
 
 
 
@@ -172,4 +234,11 @@
 
 ## web安全
 
-1. CSRF/XSS
+1. CSRF
+2. XSS
+
+
+
+
+
+## 

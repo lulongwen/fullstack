@@ -14,6 +14,7 @@
    2. runtime
 5. rollup 功能单一，webpack功能强大
    1. 工具要尽量功能单一，可集成，扩展
+   2. https://segmentfault.com/a/1190000019461556
 
 
 
